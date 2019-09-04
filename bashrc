@@ -73,6 +73,7 @@ if ${use_color} ; then
 		PS1='\[\033[01;31m\][\h\[\033[01;36m\] \W\[\033[01;31m\]]\$\[\033[00m\] '
 	else
 		PS1='\[\e[01;93m\]\u\[\e[01;92m\]@\[\e[01;93m\]\h\[\e[01;92m\][\[\e[00m\]\W\[\e[01;92m\]]\[\e[00m\]-> '
+        	#PS1='\[\e[01;96m\][\[\e[01;95m\]\W\[\e[01;96m\]] \[\e[91m\]\[\e[93m\]\[\e[92m\]\[\e[00m\] ' #Arrow NEED Nerd-Font Patch, use the 'Hack' font
 	fi
 
 	alias ls='ls --color=auto'
